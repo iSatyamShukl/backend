@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 import application.config as config
-from application.data.database import database
+from application.data.database import db
 from application.data.model import *
 
 from application.api.UserAPI import AllUserAPI, UserAPI
@@ -28,4 +28,4 @@ def home():
 
 
 if __name__=="__main__":
-    app.run
+    app.run(debug=True)
