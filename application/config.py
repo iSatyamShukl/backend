@@ -1,0 +1,3 @@
+SECRET_KEY="123"
+SQLALCHEMY_DATABASE_URI="sqlite:///../db_directory/flaskgrocery.db"
+SQLALCHEMY_TRACK_MODIFICATION=False
